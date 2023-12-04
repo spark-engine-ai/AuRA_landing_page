@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub } from 'react-icons/fa';
+
 const Logo: React.FC = () => {
   return (
     <div>

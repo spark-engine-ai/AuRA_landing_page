@@ -1,9 +1,9 @@
 import React from 'react';
-import VideoBackground from './VideoBackground';
-import Logo from './Logo';
-import ButtonRow from './ButtonRow';
+import VideoBackground from './videobackground';
+import Logo from './logo';
+import ButtonRow from './buttonrow';
 import Info from './info';
-import GridSection from './GridSection';
+import GridSection from './gridsection';
 
 const Main: React.FC = () => {
   return (
