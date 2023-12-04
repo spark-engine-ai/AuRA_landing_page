@@ -9,7 +9,7 @@ const Main: React.FC = () => {
   return (
     <div>
       <VideoBackground />
-      <div className="flex flex-col items-center justify-center h-screen text-white">
+      <div className="flex flex-col items-center justify-center h-screen text-white" style={{zIndex:999}}>
         <Logo />
         <h2 className="text-3xl font-bold mt-2">AuRA</h2>
         <p className="mt-2">Automated React Architecture</p>
