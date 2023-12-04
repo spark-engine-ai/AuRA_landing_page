@@ -15,7 +15,7 @@ const GridSection: React.FC<GridSectionProps> = ({ title, gridLayout }) => {
       <div className='flex flex-row m-4'>
         {gridItems.map((item) => (
           <div key={item.id} className="p-4 border m-4 rounded" style={{backgroundColor:'rgba(100,100,100,0.8)'}}>
-            <div className="items-center justify-center">
+            <div className="items-center justify-center" style={{textAlign:'center'}}>
               <a href={item.link} style={{cursor:'pointer'}}>
                 <img src={item.image} alt={item.title} />
               </a>
