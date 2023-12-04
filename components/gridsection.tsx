@@ -5,9 +5,9 @@ interface GridSectionProps {
 }
 const GridSection: React.FC<GridSectionProps> = ({ title, gridLayout }) => {
   const gridItems = [
-    { id: 1, image: 'frameworks/1.png', title: 'React.js', link:'https://reactjs.com' },
-    { id: 2, image: 'frameworks/2.png', title: 'Next.js', link:'https://nextjs.com' },
-    { id: 3, image: 'frameworks/3.png', title: 'Vue.js', link: 'https://vuejs.com' }
+    { id: 1, image: 'frameworks/1.PNG', title: 'React.js', link:'https://reactjs.com' },
+    { id: 2, image: 'frameworks/2.PNG', title: 'Next.js', link:'https://nextjs.com' },
+    { id: 3, image: 'frameworks/3.PNG', title: 'Vue.js', link: 'https://vuejs.com' }
   ];
   return (
     <div>
